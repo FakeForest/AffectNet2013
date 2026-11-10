@@ -1,5 +1,7 @@
 # AffectNet-style expression classification on FER2013
 
+**Authors:** Yuelin Li and Xiaoyu Chen
+
 ## Protocol
 
 The workshop adapts AffectNet's weighted expression classifier to the FER2013 images with Microsoft's FER+ annotations. The source CSV matches the original Kaggle checksum. The eight classes are neutral, happy, surprise, sad, angry, disgust, fear, and contempt. The original Training, PublicTest, and PrivateTest partitions provide 26,940 training, 3,396 validation, and 3,376 test examples after the supplied FER+ filters exclude removed images, ambiguous ties, and examples dominated by unknown or non-face votes. The task is expression classification. FER2013 does not supply valence or arousal labels. [AffectNet paper](https://arxiv.org/abs/1708.03985) · [Microsoft FER+ annotations](https://github.com/microsoft/FERPlus)

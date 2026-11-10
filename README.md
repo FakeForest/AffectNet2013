@@ -1,5 +1,7 @@
 # AffectNet2013 Workshop
 
+**Authors:** Yuelin Li and Xiaoyu Chen
+
 An AffectNet-style facial expression classification baseline on FER2013 images with eight-class FER+ annotations. The workshop compares six fine-tuning and training configurations and an equal-weight ensemble on the same filtered private test split. Validation macro-F1 selects the checkpoints.
 
 **Final report:** [WORKSHOP.pdf](WORKSHOP.pdf) is at the repository root. Edit [WORKSHOP.tex](WORKSHOP.tex) to update the report, or read the [Markdown version](WORKSHOP.md) directly on GitHub.
