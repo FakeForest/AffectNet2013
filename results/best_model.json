@@ -1,0 +1,13 @@
+{
+  "experiment": "04d_facenet",
+  "epochs": 30,
+  "best_epoch": 25,
+  "validation_macro_f1": 0.7650482152171958,
+  "validation_accuracy": 0.8739693757361602,
+  "test_macro_f1": 0.739938636717481,
+  "test_accuracy": 0.8649289099526066,
+  "test_images": 3376,
+  "checkpoint": "runs\\04d_facenet\\facenet_ferplus_majority_160px_sqrt_inverse\\best.pt",
+  "test_macro_f1_delta_pp": 1.6743,
+  "test_accuracy_delta_pp": 1.0071
+}

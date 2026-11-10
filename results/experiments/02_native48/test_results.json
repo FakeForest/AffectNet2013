@@ -1,0 +1,101 @@
+{
+  "checkpoint": "runs\\02_native48\\resnet18_native_ferplus_majority_48px_sqrt_inverse\\best.pt",
+  "epoch": 13,
+  "model": "resnet18_native",
+  "labels": "ferplus",
+  "test_images": 3376,
+  "accuracy": 0.832345971563981,
+  "macro_f1": 0.7088749428287661,
+  "confusion_matrix": [
+    [
+      976,
+      26,
+      15,
+      121,
+      19,
+      3,
+      5,
+      1
+    ],
+    [
+      27,
+      821,
+      17,
+      16,
+      26,
+      1,
+      1,
+      0
+    ],
+    [
+      14,
+      8,
+      376,
+      5,
+      12,
+      1,
+      5,
+      0
+    ],
+    [
+      76,
+      8,
+      3,
+      308,
+      21,
+      4,
+      2,
+      2
+    ],
+    [
+      23,
+      9,
+      3,
+      10,
+      265,
+      3,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      2,
+      7,
+      11,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      30,
+      7,
+      6,
+      0,
+      43,
+      0
+    ],
+    [
+      7,
+      0,
+      1,
+      3,
+      4,
+      1,
+      0,
+      10
+    ]
+  ],
+  "class_names": [
+    "neutral",
+    "happy",
+    "surprise",
+    "sad",
+    "angry",
+    "disgust",
+    "fear",
+    "contempt"
+  ]
+}

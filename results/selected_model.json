@@ -1,0 +1,18 @@
+{
+  "experiment": "03b_ensemble",
+  "members": [
+    "01_baseline",
+    "02_native48",
+    "04d_facenet"
+  ],
+  "checkpoints": [
+    "runs\\01_baseline\\resnet18_ferplus_majority_128px_sqrt_inverse\\best.pt",
+    "runs\\02_native48\\resnet18_native_ferplus_majority_48px_sqrt_inverse\\best.pt",
+    "runs\\04d_facenet\\facenet_ferplus_majority_160px_sqrt_inverse\\best.pt"
+  ],
+  "validation_accuracy": 0.8813309776207303,
+  "validation_macro_f1": 0.7723811239647504,
+  "test_accuracy": 0.8723341232227488,
+  "test_macro_f1": 0.7329097893097057,
+  "test_images": 3376
+}

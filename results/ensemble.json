@@ -1,0 +1,110 @@
+{
+  "experiment": "03b_ensemble",
+  "members": [
+    "01_baseline",
+    "02_native48",
+    "04d_facenet"
+  ],
+  "checkpoints": [
+    "runs\\01_baseline\\resnet18_ferplus_majority_128px_sqrt_inverse\\best.pt",
+    "runs\\02_native48\\resnet18_native_ferplus_majority_48px_sqrt_inverse\\best.pt",
+    "runs\\04d_facenet\\facenet_ferplus_majority_160px_sqrt_inverse\\best.pt"
+  ],
+  "validation_accuracy": 0.8813309776207303,
+  "validation_macro_f1": 0.7723811239647504,
+  "test_accuracy": 0.8723341232227488,
+  "test_macro_f1": 0.7329097893097057,
+  "test_images": 3376,
+  "confusion_matrix": [
+    [
+      1031,
+      16,
+      16,
+      85,
+      10,
+      2,
+      4,
+      2
+    ],
+    [
+      20,
+      852,
+      16,
+      7,
+      12,
+      1,
+      1,
+      0
+    ],
+    [
+      8,
+      9,
+      384,
+      5,
+      7,
+      0,
+      8,
+      0
+    ],
+    [
+      60,
+      3,
+      0,
+      333,
+      15,
+      2,
+      7,
+      4
+    ],
+    [
+      20,
+      4,
+      4,
+      9,
+      273,
+      4,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      1,
+      9,
+      9,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      23,
+      8,
+      3,
+      0,
+      53,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      4,
+      5,
+      1,
+      1,
+      10
+    ]
+  ],
+  "class_names": [
+    "neutral",
+    "happy",
+    "surprise",
+    "sad",
+    "angry",
+    "disgust",
+    "fear",
+    "contempt"
+  ]
+}

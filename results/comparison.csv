@@ -1,0 +1,7 @@
+experiment,epochs,best_epoch,validation_macro_f1,validation_accuracy,test_macro_f1,test_accuracy,test_images,checkpoint,test_macro_f1_delta_pp,test_accuracy_delta_pp
+01_baseline,25,21,0.7637095105587777,0.8642520612485277,0.7231952015157856,0.8548578199052133,3376,runs\01_baseline\resnet18_ferplus_majority_128px_sqrt_inverse\best.pt,0.0,0.0
+02_native48,25,13,0.7504529971754212,0.8471731448763251,0.7088749428287661,0.832345971563981,3376,runs\02_native48\resnet18_native_ferplus_majority_48px_sqrt_inverse\best.pt,-1.432,-2.2512
+03_tuned,55,16,0.7532205166358668,0.8568904593639576,0.6949693310814535,0.845675355450237,3376,runs\03_tuned\resnet18_ferplus_soft_128px_sqrt_inverse\best.pt,-2.8226,-0.9182
+04a_scratch,25,23,0.7275913784772627,0.8371613663133097,0.6778014030164553,0.8249407582938388,3376,runs\04a_scratch\resnet18_ferplus_majority_128px_sqrt_inverse\best.pt,-4.5394,-2.9917
+04b_alexnet,30,26,0.6927881376425724,0.8236160188457008,0.682395378060376,0.8231635071090048,3376,runs\04b_alexnet\alexnet_ferplus_majority_128px_sqrt_inverse\best.pt,-4.08,-3.1694
+04d_facenet,30,25,0.7650482152171958,0.8739693757361602,0.739938636717481,0.8649289099526066,3376,runs\04d_facenet\facenet_ferplus_majority_160px_sqrt_inverse\best.pt,1.6743,1.0071

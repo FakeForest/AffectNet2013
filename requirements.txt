@@ -1,0 +1,9 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python<5
+pillow
+kaggle  # optional: only needed to download FER2013 automatically

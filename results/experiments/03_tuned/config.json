@@ -1,0 +1,21 @@
+{
+  "data_dir": "data",
+  "labels": "ferplus",
+  "ferplus_mode": "soft",
+  "model": "resnet18",
+  "pretrained": true,
+  "img_size": 128,
+  "epochs": 55,
+  "batch_size": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "class_weighting": "sqrt_inverse",
+  "label_smoothing": 0.02,
+  "ema_decay": 0.995,
+  "augment": true,
+  "tta": true,
+  "select_metric": "macro_f1",
+  "seed": 42,
+  "out_dir": "runs/03_tuned",
+  "run_dir": "runs\\03_tuned\\resnet18_ferplus_soft_128px_sqrt_inverse"
+}

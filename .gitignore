@@ -1,0 +1,15 @@
+/.runtime/
+/.venv/
+/.env*
+__pycache__/
+*.py[cod]
+/data/
+/logs/
+/photos/
+/runs/
+/results/photos/
+kaggle.json
+*.pt
+*.pth
+*.zip
+*.tar.gz
