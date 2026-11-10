@@ -8,7 +8,11 @@ An AffectNet-style facial expression classification baseline on FER2013 images w
 | VGGFace2 FaceNet | **73.99%** | 86.49% |
 | Three-model ensemble | 73.29% | **87.23%** |
 
-[Workshop report](WORKSHOP.md) · [All single-model results](results/comparison.csv) · [Per-epoch histories](results/experiments) · [ResNet-18 and AlexNet curves](results/resnet18_vs_alexnet.png)
+[Workshop report (PDF)](WORKSHOP.pdf) · [LaTeX source](WORKSHOP.tex) · [All single-model results](results/comparison.csv) · [Per-epoch histories](results/experiments) · [ResNet-18 and AlexNet curves](results/resnet18_vs_alexnet.png)
+
+## Compile the report
+
+Run `tectonic WORKSHOP.tex` from the repository root. The LaTeX source uses the plot under `results/` and compiles to `WORKSHOP.pdf`.
 
 ## Reproduce the workshop
 
